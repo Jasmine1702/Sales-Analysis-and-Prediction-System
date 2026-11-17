@@ -357,6 +357,15 @@ hr {
     font-weight: 600;
 }
 
+header[data-testid="stHeader"] {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.stApp {
+    border-top: none !important;
+}
 
 </style>
 """, unsafe_allow_html=True)
